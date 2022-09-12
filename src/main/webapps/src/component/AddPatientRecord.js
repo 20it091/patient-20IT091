@@ -57,8 +57,6 @@ const AddPatientRecord = () => {
   }
       
     
-
-
     const changeValue = (e) => {
         if(e.target.name === "id"){
             setId(e.target.value)
